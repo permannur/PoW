@@ -1,0 +1,18 @@
+app:
+  name: 'World of Wisdom tcp server'
+  version: '1.0.0'
+
+tcp:
+  port: '6677'
+  accept_delay_millisecond: 10
+  conn_timeout_second: 5
+  read_timeout_second: 3
+
+protocol:
+  max_read_size_uint32: 1024
+
+pow:
+  leading_zero_count_byte: 20
+
+logger:
+  log_level: 'debug'

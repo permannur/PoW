@@ -1,0 +1,20 @@
+app:
+  name: 'World of Wisdom tcp client'
+  version: '1.0.0'
+
+tcp:
+  port: '6677'
+  dial_timeout_second: 3
+  conn_timeout_second: 5
+  max_dail_count_byte: 10
+  delay_attempts_millisecond: 10
+  read_timeout_second: 3
+
+protocol:
+  max_read_size_uint32: 1024
+
+pow:
+  max_attempts_count_uint32: 4294967295
+
+logger:
+  log_level: 'debug'
